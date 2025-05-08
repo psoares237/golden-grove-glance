@@ -77,7 +77,7 @@ const slides = [
     content: [
       "Agende uma conversa inicial gratuita para um diagnóstico preliminar.",
       "Email: contato@phosconsultoria.com.br",
-      "Telefone: (11) 99999-9999",
+      "Telefone: (11) 99365-8624",
       "LinkedIn: linkedin.com/in/phosconsultoria",
       "O que esperar da conversa inicial: Entenderemos seus desafios e como podemos ajudar de forma prática."
     ],
@@ -118,7 +118,7 @@ const PitchDeck = () => {
                   className={`h-2 rounded-full transition-all duration-300 ${
                     index === currentSlide ? "bg-gold w-8" : "bg-gray-300 w-4"
                   }`}
-                  aria-label={`Go to slide ${index + 1}`}
+                  aria-label={`Ir para slide ${index + 1}`}
                 />
               ))}
             </div>
